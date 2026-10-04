@@ -23,10 +23,10 @@ import org.lwjgl.input.Keyboard;
 public class BridgeTrainer {
 
     // ---- Tweak these ----
-    private static final float PITCH_MIN = 75.0f;     // good pitch range for side-face aim
-    private static final float PITCH_MAX = 82.0f;
-    private static final long  BEAT_MS   = 180;       // time per A/D step
-    private static final float HOLD_FRAC = 0.70f;     // how much of each beat the key stays lit
+    private static final float PITCH_MIN = 64.5f;     // good pitch range for side-face aim
+    private static final float PITCH_MAX = 66.5f;
+    private static final long  BEAT_MS   = 400;       // time per A/D step
+    private static final float HOLD_FRAC = 0.60f;     // how much of each beat the key stays lit
     // ---------------------
 
     private static final int GREEN = 0xFF55FF55;
